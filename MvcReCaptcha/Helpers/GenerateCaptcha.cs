@@ -7,9 +7,6 @@ using System.Web;
 
 namespace MvcReCaptcha.Helpers
 {
-    /// <summary>
-    /// 
-    /// </summary>
     public static class ReCaptchaHelper
     {
         /// <summary>

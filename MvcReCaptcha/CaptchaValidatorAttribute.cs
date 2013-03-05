@@ -36,11 +36,8 @@ namespace MvcReCaptcha
                 filterContext.Controller.ViewData.ModelState.AddModelError("recaptcha", "incorrect user input");
 
 
-
             base.OnActionExecuting(filterContext);
             
-            // Add string to Trace for testing
-            //filterContext.HttpContext.Trace.Write("Log: OnActionExecuting", String.Format("Calling {0}", filterContext.ActionDescriptor.ActionName));
         }
     }
 }
