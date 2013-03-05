@@ -1,7 +1,7 @@
 MvcReCaptcha
 ============
 
-Updated version of MvcReCaptcha, now usable in MVC3 and .Net 4.0
+Updated version of MvcReCaptcha, now usable with MVC3 and .Net 4.0
 
 More Info:
 http://mvcrecaptcha.codeplex.com/
@@ -10,6 +10,14 @@ http://mvcrecaptcha.codeplex.com/
 
 Usage
 ============
+View:
+
+      @Html.GenerateCaptcha("white")
+ 
+
+ 
+ 
+Controller:
 
     [HttpPost, MvcReCaptcha.CaptchaValidator]
     public ActionResult SampleAction(SampleModel model)
